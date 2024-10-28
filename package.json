@@ -1,7 +1,6 @@
 {
   "name": "minesweeper",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +8,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@types/react": "~18.2.79",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
+    "lottie-react-native": "^7.0.0",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.10.1",
+    "typescript": "~5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
